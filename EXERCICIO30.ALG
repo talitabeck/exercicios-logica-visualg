@@ -1,0 +1,44 @@
+Algoritmo "exercicio30"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Talita
+// Data atual  : 20/03/2023
+//Ler 3 valores (considere que não serão informados valores iguais) e
+//escrevê-los em ordem crescente.
+Var
+// Seção de Declarações das variáveis
+valor1:real
+valor2:real
+valor3:real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Digite um valor: ")
+leia(valor1)
+escreva("Digite outro valor: ")
+leia(valor2)
+escreva("Digite um último valor: ")
+leia(valor3)
+se (valor1>valor2) e (valor2>valor3) entao
+   escreval(valor3,valor2,valor1)
+fimse
+se (valor1>valor3) e (valor3>valor2) entao
+     escreval(valor2,valor3,valor1)
+fimse
+se (valor2>valor1) e (valor1>valor3) entao
+   escreval(valor3, valor1, valor2)
+fimse
+se (valor2>valor3) e (valor3>valor1) entao
+   escreval(valor1, valor3, valor2)
+fimse
+se (valor3>valor2) e (valor2>valor1) entao
+   escreval(valor1, valor2, valor3)
+fimse
+se (valor3>valor1) e (valor1>valor2) entao
+  escreval(valor2, valor1, valor3)
+fimse
+
+
+Fimalgoritmo

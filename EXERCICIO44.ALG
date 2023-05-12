@@ -1,0 +1,38 @@
+Algoritmo "exercicio44"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jaja
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Talita
+// Data atual  : 22/03/2023
+//Escreva um algoritmo para ler 2 valores e se o segundo valor informado for
+// ZERO, deve ser lido
+//um novo valor, ou seja, para o segundo valor não pode ser aceito o valor
+//zero e imprimir o resultado
+//da divisão do primeiro valor lido pelo segundo valor lido.
+//(utilizar a estrutura REPITA).
+Var
+// Seção de Declarações das variáveis 
+a:inteiro
+b:inteiro
+resultado:real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Digite um valor: ")
+leia(a)
+escreva("Digite outro valor: ")
+leia(b)
+
+Enquanto b=0 faca
+     escreva("Digite um valor diferente do último digitado anteriormente:")
+     leia(b)
+fimenquanto
+
+Se b<>0 entao
+   resultado<- a/b
+  escreval(resultado)
+fimse
+
+
+Fimalgoritmo
